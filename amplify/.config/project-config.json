@@ -1,17 +1,17 @@
 {
-  "projectName": "amplifyapp",
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "AmplifyApp",
   "version": "3.1",
   "frontend": "javascript",
   "javascript": {
     "framework": "react",
     "config": {
-      "SourceDir": "src",
-      "DistributionDir": "build",
+      "SourceDir": "C:\\Users\\lyly_\\Documents\\React projects\\Amplify-App\\src",
+      "DistributionDir": "C:\\Users\\lyly_\\Documents\\React projects\\Amplify-App",
       "BuildCommand": "npm.cmd run-script build",
       "StartCommand": "npm.cmd run-script start"
     }
-  },
-  "providers": [
-    "awscloudformation"
-  ]
+  }
 }
