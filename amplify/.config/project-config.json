@@ -8,10 +8,10 @@
   "javascript": {
     "framework": "react",
     "config": {
-      "SourceDir": "C:\\Users\\lyly_\\Documents\\React projects\\Amplify-App\\src",
-      "DistributionDir": "C:\\Users\\lyly_\\Documents\\React projects\\Amplify-App",
-      "BuildCommand": "npm.cmd run-script build",
-      "StartCommand": "npm.cmd run-script start"
+      "SourceDir": "src",
+      "DistributionDir": "build",
+      "BuildCommand": "npm run-script build",
+      "StartCommand": "npm run-script start"
     }
   }
 }
